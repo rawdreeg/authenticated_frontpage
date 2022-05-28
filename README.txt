@@ -39,6 +39,5 @@ CONFIGURATION
 
     1. Navigate to "Adminstration > Extend" and enable module.
     2. Navigate to "Adminstration > Configuration > System > Authenticated user front page Settings."
-       to configure options for automatically blocking inactive users.
         1. Set the logged in frontpage.
         2. save settings.
