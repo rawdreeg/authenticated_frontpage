@@ -58,7 +58,7 @@ class SettingsForm extends ConfigFormBase {
     $form['field_loggedin_frontpage'] = [
       '#type' => 'entity_autocomplete',
       '#target_type' => 'node',
-      '#title' => $this->t('Loggein User frontpage'),
+      '#title' => $this->t('Authenticated User frontpage'),
       '#default_value' => $saved_page ? $node_storage->load($saved_page) : NULL,
     ];
 
