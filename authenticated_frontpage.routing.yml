@@ -1,0 +1,7 @@
+authenticated_frontpage.settings_form:
+  path: '/admin/config/system/authenticated-frontpage'
+  defaults:
+    _title: 'Authenticated users - Frontpage settings'
+    _form: 'Drupal\authenticated_frontpage\Form\SettingsForm'
+  requirements:
+    _permission: 'administer authenticated_frontpage configuration'

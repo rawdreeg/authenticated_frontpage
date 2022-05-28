@@ -1,0 +1,6 @@
+services:
+  authenticated_frontpage.event_subscriber:
+    class: Drupal\authenticated_frontpage\EventSubscriber\AuthenticatedFrontpageSubscriber
+    arguments: ['@messenger','@current_user','@path.matcher', '@config.factory', '@state']
+    tags:
+      - { name: event_subscriber }

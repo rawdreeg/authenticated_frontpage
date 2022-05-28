@@ -1,0 +1,5 @@
+authenticated_frontpage.settings:
+  title: 'Authenticated user front page Settings.'
+  parent: system.admin_config_system
+  description: 'Configure front page path for logged in user.'
+  route_name: authenticated_frontpage.settings_form

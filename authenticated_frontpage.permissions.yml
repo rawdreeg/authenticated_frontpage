@@ -1,0 +1,3 @@
+administer authenticated_frontpage configuration:
+  title: 'Administer authenticated_frontpage configuration'
+  restrict access: true
