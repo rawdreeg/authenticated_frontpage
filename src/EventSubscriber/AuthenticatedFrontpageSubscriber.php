@@ -120,8 +120,13 @@ class AuthenticatedFrontpageSubscriber implements EventSubscriberInterface {
     }
 
     if ($this->pathMatcher->isFrontPage()) {
+
+      $args = $event->getRequest()->query->all();
+
       $url_object = new Url('entity.node.canonical', [
         'node' => $loggedin_frontpage,
+      ],[
+        'query' => $args
       ]);
 
       $event->setResponse(new RedirectResponse($url_object->toString()));
