@@ -30,7 +30,7 @@ class SettingsForm extends ConfigFormBase {
    * Create function for depdendency injection.
    */
   public static function create(ContainerInterface $container) {
-    /* @var $entity_type_manager \Drupal\Core\Entity\EntityTypeManagerInterface */
+    /** @var \Drupal\Core\Entity\EntityTypeManagerInterface $entity_type_manager */
     $entity_type_manager = $container->get('entity_type.manager');
     return new static($entity_type_manager);
   }

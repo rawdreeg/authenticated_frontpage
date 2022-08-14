@@ -10,9 +10,11 @@ CONTENTS OF THIS FILE
 INTRODUCTION
 ------------
 
-A very minimal module that let you set up a custom node as the front page for authenticated users.
+A very minimal module that let you set up a custom node as the
+front page for authenticated users.
 
-A possible improvement could be letting users configure different front pages by roles. but I will let the community decide on where this goes
+A possible improvement could be letting users configure different front pages
+by roles. but I will let the community decide on where this goes
 
  * For a full description of the module, visit the project page:
    https://drupal.org/project/authenticated_frontpage
@@ -38,6 +40,7 @@ CONFIGURATION
 -------------
 
     1. Navigate to "Adminstration > Extend" and enable module.
-    2. Navigate to "Adminstration > Configuration > System > Authenticated user front page Settings."
+    2. Navigate to "Adminstration > Configuration > System >
+       Authenticated user front page Settings."
         1. Set the logged in frontpage.
         2. save settings.
