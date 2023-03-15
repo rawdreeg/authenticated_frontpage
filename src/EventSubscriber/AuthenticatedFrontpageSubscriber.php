@@ -125,8 +125,8 @@ class AuthenticatedFrontpageSubscriber implements EventSubscriberInterface {
 
       $url_object = new Url('entity.node.canonical', [
         'node' => $loggedin_frontpage,
-      ],[
-        'query' => $args
+      ], [
+        'query' => $args,
       ]);
 
       $event->setResponse(new RedirectResponse($url_object->toString()));
